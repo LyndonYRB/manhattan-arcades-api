@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Chinatown Fair",
+    "address": "8 Mott St, New York, NY 10038",
+    "hours": "11AM - 2AM",
+    "days": "everyday",
+    "coverCharge": false,
+    "servesAlcohol": false
+  },
+  {
+    "name": "OS NYC",
+    "address": "50 Bowery, New York, NY 10013",
+    "hours": "12PM - 12AM Tuesday - Thursday, 12PM - 2AM Friday - Saturday",
+    "days": "closed on Mondays",
+    "coverCharge": true,
+    "servesAlcohol": true
+  },
+  {
+    "name": "Ace Bar",
+    "address": "531 E 5th St, New York, NY 10009",
+    "hours": "3PM - 4AM",
+    "days": "everyday",
+    "coverCharge": false,
+    "servesAlcohol": true
+  },
+  {
+    "name": "Barcade (St.Marks)",
+    "address": "6 St Marks Pl, New York, NY 10003",
+    "hours": "2PM - 2AM Sunday - Thurday, 2PM - 4AM Friday - Saturday",
+    "days": "everyday",
+    "coverCharge": false,
+    "servesAlcohol": true
+  },
+  {
+    "name": "Barcade (24th street)",
+    "address": "148 W 24th St, New York, NY 10011",
+    "hours": "2PM - 2AM",
+    "days": "everyday",
+    "coverCharge": false,
+    "servesAlcohol": true
+  },
+  {
+    "name": "Tidal Force VR",
+    "address": "289 7th Ave Suite 5, New York, NY 10001",
+    "hours": "11AM - 12AM",
+    "days": "everyday",
+    "coverCharge": true,
+    "servesAlcohol": false
+  },
+  {
+    "name": "Dave and Busters",
+    "address": "234 W 42nd St, New York, NY 10036",
+    "hours": "10AM - 12AM Sunday - Tuesday, 10AM - 1AM Wednesday - Saturday",
+    "days": "everyday",
+    "coverCharge": false,
+    "servesAlcohol": true
+  },
+  {
+    "name": "Bowlero Times Square",
+    "address": "222 W 44th St, New York, NY 10036",
+    "hours": "4PM - 11PM Monday - Thursday, 4PM - 1AM Friday, 12PM - 1AM Saturday, 12PM-12AM Sunday",
+    "days": "everyday",
+    "coverCharge": true,
+    "servesAlcohol": true
+  }
+]

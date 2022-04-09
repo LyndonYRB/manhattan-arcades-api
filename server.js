@@ -7,7 +7,7 @@ import logger from "morgan";
 import chalk from "chalk";
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 9000;
 
 app.use(express.json());
 app.use(cors());
@@ -22,7 +22,7 @@ db.on("connected", () => {
     process.env.NODE_ENV === "production"
       ? console.log(`Express server running in production on port ${PORT}\n\n`)
       : console.log(
-          `Express server running in development on: http://localhost:${PORT}`
-        );
+        `Express server running in development on: http://localhost:${PORT}`
+      );
   });
 });
