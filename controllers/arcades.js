@@ -1,6 +1,6 @@
 import Arcade from "../model/arcades.js"
 
-export const getArcades = async (req, res) => {
+export let getArcades = async (req, res) => {
   try {
     const arcades = await Arcade.find();
     res.json(arcades);
