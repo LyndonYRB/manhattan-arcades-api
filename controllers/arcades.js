@@ -1,4 +1,4 @@
-import Arcade from "./model/arcades.js.js"
+import Arcade from "../model/arcades.js"
 
 export const getArcades = async (req, res) => {
   try {

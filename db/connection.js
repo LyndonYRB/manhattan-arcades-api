@@ -1,10 +1,11 @@
 import mongoose from "mongoose";
+import chalk from "chalk";
+
+const MONGODB_URI = "mongodb://127.0.0.1:27017/arcades-manhattan";
 
 
-const MONGODB_URI =
-  process.env.PROD_MONGODB || "mongodb://127.0.0.1:27017/arcades-manhattan";
-
-
+//process.env.PROD_MONGODB || 
+mongoose.set('debug', true)
 mongoose.set("returnOriginal", false);
 
 mongoose

@@ -1,15 +1,14 @@
 import db from "./db/connection.js";
 import routes from "./routes/index.js";
-
 import express from "express";
 import cors from "cors";
 import logger from "morgan";
 import chalk from "chalk";
 
 const app = express();
-const PORT = process.env.PORT || 9000;
+const PORT = 9000;
 
-app.use(express.json());
+app.use(express());
 app.use(cors());
 app.use(logger("dev"));
 

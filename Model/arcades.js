@@ -4,10 +4,9 @@ const Schema = mongoose.Schema;
 let Arcade = new Schema({
   name: { type: String },
   address: { type: String },
-  hours: { type: String, required: true },
+  hours: { type: String },
   coverCharge: { type: Boolean },
   servesAlcohol: { type: Boolean },
-
 });
 
-export default mongoose.model("arcades", Arcade);
+export default mongoose.model("arcade", Arcade);

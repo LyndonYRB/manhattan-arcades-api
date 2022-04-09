@@ -1,5 +1,5 @@
 import db from "../db/connection.js";
-import Arcade from "../Model/arcades"
+import Arcade from "../model/arcades.js"
 
 import arcades from "./arcades.json" assert { type: "json" };
 

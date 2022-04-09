@@ -1,12 +1,12 @@
 import { Router } from "express";
 
-import arcades from "../Model/arcades.js";
+import arcadeRoutes from "./arcades.js";
 
 const router = Router();
 
 router.get("/", (req, res) => res.send("This is the api root!"));
 
-router.use("/", arcadesRoutes);
+router.use("/", arcadeRoutes);
 
 
 export default router;

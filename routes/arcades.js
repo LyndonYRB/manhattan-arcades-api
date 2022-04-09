@@ -1,5 +1,5 @@
 import { Router } from "express";
-import * as controllers from "../controllers/arcades";
+import * as controllers from "../controllers/arcades.js";
 
 const router = Router();
 
