@@ -1,7 +1,7 @@
 import db from "../db/connection.js";
 import Arcade from "../model/arcades.js"
 
-import arcades from "./arcades" assert { type: "json" };
+import arcades from "./arcades.json" assert { type: "json" };
 
 
 const insertData = async () => {
