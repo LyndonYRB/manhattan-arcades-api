@@ -8,6 +8,18 @@ const insertData = async () => {
   // reset database
   db.dropDatabase();
 
+  let myArcade = [];
+  for (let i = 0; i < arcades.length; i++) {
+    myArcade.push({
+
+      name: arcades[i].name,
+      address: arcades[i].address,
+      hours: arcades[i].hours,
+      coverCharge: arcades[i].coverCharge,
+      servesAlcohol: arcades[i].servesAlcohol,
+
+    })
+  }
 
   // insert arcades into database
   await Arcade.insertMany(arcades);
