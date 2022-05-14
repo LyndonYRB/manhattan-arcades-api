@@ -14,12 +14,11 @@ export const getArcade = async (req, res) => {
   try {
     const { id } = req.params;
     const arcade = await Arcade.findById(id);
-
-    if (arcade) {
+     if (arcade) {
       return res.json(arcade);
     }
 
-    res.status(400).json({ message: "Arcade not found!" });
+    res.status(404).json({ message: "Arcade not found!" });
   } catch (error) {
     console.log(error);
     res.status(500).json({ error: error.message });
@@ -47,11 +46,9 @@ export const deleteArcade = async (req, res) => {
   try {
     const { id } = req.params;
     const deleted = await Arcade.findByIdAndDelete(id);
-
     if (deleted) {
       return res.status(200).send("Arcade deleted!");
     }
-
     throw new Error("Arcade not found");
   } catch (error) {
     console.log(error);

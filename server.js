@@ -6,9 +6,9 @@ import logger from "morgan";
 import chalk from "chalk";
 
 const app = express();
-const PORT = 9000;
+const PORT = process.env.PORT || 9000;
 
-app.use(express());
+app.use(express.json());
 app.use(cors());
 app.use(logger("dev"));
 

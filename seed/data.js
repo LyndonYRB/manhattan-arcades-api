@@ -1,11 +1,9 @@
 import db from "../db/connection.js";
 import Arcade from "../model/arcades.js"
-
 import arcades from "./arcades.json" assert { type: "json" };
 
 
 const insertData = async () => {
-  // reset database
   db.dropDatabase();
 
   let myArcade = [];
@@ -15,16 +13,17 @@ const insertData = async () => {
       name: arcades[i].name,
       address: arcades[i].address,
       hours: arcades[i].hours,
+      days: arcades[i].days,
       coverCharge: arcades[i].coverCharge,
       servesAlcohol: arcades[i].servesAlcohol,
 
     })
   }
 
-  // insert arcades into database
+ 
   await Arcade.insertMany(arcades);
 
-  // close db connection (done)
+
   db.close();
 };
 
