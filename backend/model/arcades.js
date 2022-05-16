@@ -8,6 +8,8 @@ let Arcade = new Schema({
   days: { type: String },
   coverCharge: { type: Boolean },
   servesAlcohol: { type: Boolean },
+  frontImage: { type: String },
+  backgroundImage: { type: String },
 });
 
 export default mongoose.model("arcades", Arcade);

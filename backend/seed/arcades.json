@@ -5,7 +5,10 @@
     "hours": "11AM - 2AM",
     "days": "everyday",
     "coverCharge": false,
-    "servesAlcohol": false
+    "servesAlcohol": false,
+    "frontImage":"https://media.newyorker.com/photos/59097aec8b51cf59fc423b31/master/pass/Gregory-Lost-Arcade-01.jpg",
+    "backgroundImage":"https://s3-media0.fl.yelpcdn.com/bphoto/Pj5b5ah1rZ6c8T_3k9H1oA/l.jpg "
+
   },
   {
     "name": "OS NYC",
@@ -13,7 +16,9 @@
     "hours": "12PM - 12AM Tuesday - Thursday, 12PM - 2AM Friday - Saturday",
     "days": "closed on Mondays",
     "coverCharge": true,
-    "servesAlcohol": true
+    "servesAlcohol": true,
+    "frontImage":"https://media.timeout.com/images/105865886/750/422/image.jpg",
+    "backgroundImage":"https://dh-prod-cdn.azureedge.net/-/media/property/jdv/50bowery/os-picturejpg-crpd1600x760.jpg?ts=da3a5412-8517-40fc-98c4-704362a5be82"
   },
   {
     "name": "Ace Bar",
@@ -21,7 +26,9 @@
     "hours": "3PM - 4AM",
     "days": "everyday",
     "coverCharge": false,
-    "servesAlcohol": true
+    "servesAlcohol": true,
+    "frontImage":"https://nyc.thedrinknation.com/images/bars/acebarnyc.jpg",
+    "backgroundImage":"https://sqdte9mbh615zsvesmkh1eyq-wpengine.netdna-ssl.com/wp-content/uploads/2012/06/E5th-531-Ace-Bar-TA03.jpg"
   },
   {
     "name": "Barcade (St.Marks)",
@@ -29,7 +36,9 @@
     "hours": "2PM - 2AM Sunday - Thurday, 2PM - 4AM Friday - Saturday",
     "days": "everyday",
     "coverCharge": false,
-    "servesAlcohol": true
+    "servesAlcohol": true,
+    "frontImage":"https://media-cdn.tripadvisor.com/media/photo-s/0d/70/fc/a0/barcader-25-taps-of-american.jpg",
+    "backgroundImage":"https://barcadestmarks.com/wp-content/uploads/2020/04/BarcadeStMarks_SB180519s.jpg"
   },
   {
     "name": "Barcade (24th street)",
@@ -37,7 +46,9 @@
     "hours": "2PM - 2AM",
     "days": "everyday",
     "coverCharge": false,
-    "servesAlcohol": true
+    "servesAlcohol": true,
+    "frontImage":"https://nyc.thedrinknation.com/images/article_gallery/2014-06-09-barcade-ny-690x420.png",
+    "backgroundImage":"https://sideways.nyc/wp-content/uploads/2013/04/W24th-148-Barcade-TA03.jpg"
   },
   {
     "name": "Tidal Force VR",
@@ -45,7 +56,9 @@
     "hours": "11AM - 12AM",
     "days": "everyday",
     "coverCharge": true,
-    "servesAlcohol": false
+    "servesAlcohol": false,
+    "frontImage":"https://s3-media0.fl.yelpcdn.com/bphoto/lbRmp7nQFZBtiRd-v5k62w/258s.jpg",
+    "backgroundImage":"https://i.ibb.co/3YJjjLC/engineering-1.jpg"
   },
   {
     "name": "Dave and Busters",
@@ -53,7 +66,9 @@
     "hours": "10AM - 12AM Sunday - Tuesday, 10AM - 1AM Wednesday - Saturday",
     "days": "everyday",
     "coverCharge": false,
-    "servesAlcohol": true
+    "servesAlcohol": true,
+    "frontImage":"https://c8.alamy.com/comp/T8MRWT/new-york-usa-july-1-2013-people-visit-broadway-dave-and-busters-restaurant-in-new-york-dave-and-busters-has-73-locations-in-the-usa-the-resta-T8MRWT.jpg",
+    "backgroundImage":"https://www.nye.com/images/venues/7-3-dave-and-busters-nyc.jpg"
   },
   {
     "name": "Bowlero Times Square",
@@ -61,6 +76,8 @@
     "hours": "4PM - 11PM Monday - Thursday, 4PM - 1AM Friday, 12PM - 1AM Saturday, 12PM-12AM Sunday",
     "days": "everyday",
     "coverCharge": true,
-    "servesAlcohol": true
+    "servesAlcohol": true,
+    "frontImage":"https://fastly.4sqi.net/img/general/600x600/8744718_0bmSEjvJXkSy5vv8YbPNPsK0POabRvAPFI0QuBwBvnQ.jpg",
+    "backgroundImage":"https://www.bowlero.com/sites/bowlero/files/FeaturedSpecialsModule_HalfPriceArcadeWednesdays_580x240_Retina_0.jpg"
   }
 ]

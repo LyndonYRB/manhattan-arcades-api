@@ -16,6 +16,8 @@ const insertData = async () => {
       days: arcades[i].days,
       coverCharge: arcades[i].coverCharge,
       servesAlcohol: arcades[i].servesAlcohol,
+      frontImage: arcades[i].frontImage,
+      backgroundImage: arcades[i].backgroundImage,
 
     })
   }
