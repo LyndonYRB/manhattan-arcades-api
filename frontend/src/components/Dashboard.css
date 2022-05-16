@@ -1,0 +1,12 @@
+.dashboard{
+  position: absolute;
+  width: 15rem;
+  height: 40rem;
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+.arcade-heading {
+position: absolute;
+top: 5px;
+left: 15px;
+}
